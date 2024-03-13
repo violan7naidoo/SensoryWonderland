@@ -9,8 +9,8 @@ import { useShoppingCart } from "use-shopping-cart";
 const links = [
   { name: "Home", href: "/" },
   { name: "Occupational", href: "/Occupational" },
-  { name: "Sensory Textiles & Toys", href: "/Sensory Textiles & Toys" },
-  { name: "Sensory Products", href: "/Sensory Products" },
+  { name: "Sensory Textiles Toys", href: "/SensoryTextilesToys" },
+  { name: "Sensory Products", href: "/SensoryProducts" },
 ];
 
 export default function Navbar() {
