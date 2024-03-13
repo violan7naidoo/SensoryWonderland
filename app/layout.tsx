@@ -8,8 +8,9 @@ import ShoppingCartModal from "./components/ShoppingCartModal";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Grey Son's",
-  description: "Branded Foowear and Clothes",
+  title: "Sensory Wonderland",
+  description:
+    "Resources for Austism, ADHD, Asperger's , Neuro-Diverse Kids, Schools and Parents",
 };
 
 export default function RootLayout({

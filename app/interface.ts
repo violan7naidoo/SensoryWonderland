@@ -16,4 +16,5 @@ export interface fullProduct {
   name: string;
   description: string;
   price_id: string;
+  deliveryTime: string;
 }

@@ -8,9 +8,9 @@ import { useShoppingCart } from "use-shopping-cart";
 
 const links = [
   { name: "Home", href: "/" },
-  { name: "Nike", href: "/Nike" },
-  { name: "Jordan", href: "/Jordan" },
-  { name: "Lacoste", href: "/Lacoste" },
+  { name: "Occupational", href: "/Occupational" },
+  { name: "Sensory Textiles & Toys", href: "/Sensory Textiles & Toys" },
+  { name: "Sensory Products", href: "/Sensory Products" },
 ];
 
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
           <h1 className="text-2xl md:text-4xl font-bold">
-            Grey<span className="text-primary">Sons</span>
+            Sensory<span className="text-primary">Wonderland</span>
           </h1>
         </Link>
 

@@ -5,6 +5,7 @@ import { fullProduct } from "../../interface";
 import { client } from "../../lib/sanity";
 import { Button } from "../../../components/ui/button";
 import { Star, Truck } from "lucide-react";
+import Footer from "../../components/Footer";
 
 async function getData(slug: string) {
   const query = `*[_type == "product" && slug.current == "${slug}"][0] {
@@ -15,7 +16,8 @@ async function getData(slug: string) {
           description,
           "slug": slug.current,
           "categoryName": category->name,
-          price_id
+          price_id,
+          deliveryTime
       }`;
 
   const data = await client.fetch(query);
@@ -76,7 +78,7 @@ export default async function ProductPge({
 
             <div className="mb-6 flex items-center gap-2 text-gray-500">
               <Truck className="w-6 h-6" />
-              <span className="text-sm">2-4 Day Shipping</span>
+              <span className="text-sm">{data.deliveryTime} Shipping</span>
             </div>
 
             <div className="flex gap-2.5">
@@ -106,6 +108,7 @@ export default async function ProductPge({
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

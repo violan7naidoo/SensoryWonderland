@@ -22,8 +22,8 @@ export default async function Hero() {
             Shop Online
           </h1>
           <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-            Step into style with our premium footwear collection. Start your
-            online shoe shopping experience today!
+            Resources for Austism, ADHD, Asperger’s, Neuro-Diverse Kids, Schools
+            and Parents
           </p>
         </div>
 
@@ -53,24 +53,24 @@ export default async function Hero() {
       </div>
 
       <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
-        <div className="flex h-12 w-64 divide-x overflow-hidden rounded-lg border">
+        <div className="flex h-12 w-full divide-x overflow-hidden rounded-lg border">
           <Link
-            href="/Nike"
+            href="/Occupational"
             className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
           >
-            Nike
+            Occupational
           </Link>
           <Link
-            href="/Jordan"
+            href="/Sensory Textiles & Toys"
             className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
           >
-            Jordan
+            Sensory Textiles & Toys
           </Link>
           <Link
-            href="/Lacoste"
+            href="/Sensory Products"
             className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
           >
-            Lacoste
+            Sensory Products
           </Link>
         </div>
       </div>

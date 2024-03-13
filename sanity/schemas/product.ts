@@ -47,5 +47,16 @@ export default {
         },
       ],
     },
+    {
+      name: 'deliveryTime',
+      title: 'Delivery Time',
+      type: 'string',
+      options: {
+        list: [
+          {title: '20-30 days', value: '20-30 days'},
+          {title: '5-10 days', value: '5-10 days'},
+        ],
+      },
+    },
   ],
 }
