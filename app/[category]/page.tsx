@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { simplifiedProduct } from "../interface";
+import Footer from "../../app/components/Footer";
 import { client } from "../lib/sanity";
 import Image from "next/image";
 
@@ -70,6 +71,7 @@ export default async function CategoryPage({
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

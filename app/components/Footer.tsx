@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="/SensoryTextilesToys"
+                  href="/Toys"
                   className="hover:text-gray-400 transition duration-200"
                 >
                   Sensory Textiles & Toys
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="/SensoryProducts"
+                  href="/Products"
                   className="hover:text-gray-400 transition duration-200"
                 >
                   Sensory Products
@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
                   href="/"
                   className="hover:text-gray-400 transition duration-200"
                 >
-                  Call : 082 794 1504
+                  Call K : 082 794 1504
                 </a>
               </li>
               <li></li>
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
                 </span>
                 <span className="text-xl">
                   <a
-                    href="https://https://www.instagram.com/sensory_wonderland/"
+                    href="https://www.instagram.com/sensory_wonderland/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400 transition duration-200"
@@ -96,10 +96,19 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-8 border-t border-gray-600 pt-4">
+          <a
+            href="https://ve3z.co.za/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-400 transition duration-200"
+          >
+            Design by ve3z
+          </a>
           <p className="text-sm text-gray-500">
+            <br />
             &copy; {new Date().getFullYear()} Sensory Wonderland. All rights
             reserved.
-          </p>
+          </p>{" "}
         </div>
       </div>
     </footer>
