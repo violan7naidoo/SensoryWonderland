@@ -23,7 +23,7 @@ export default async function Hero() {
           </h1>
           <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
             Welcome to Sensory Wonderland where you can find resources for
-            Autism, ADHD, Asperger's syndrome, neuro-diverse kids, as well as
+            Autism, ADHD, Aspergers syndrome, neuro-diverse kids, as well as
             schools and parents.
           </p>
         </div>
