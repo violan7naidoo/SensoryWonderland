@@ -28,13 +28,34 @@ export default function CheckoutNow({
     price_id: price_id,
   };
   return (
-    <Button
-      variant="outline"
-      onClick={() => {
-        buyNow(product.price_id);
-      }}
-    >
-      Checkout Now
-    </Button>
+    <form action="https://sandbox.payfast.co.za/eng/process" method="post">
+      <input type="hidden" name="merchant_id" value="10000100" />
+      <input type="hidden" name="merchant_key" value="46f0cd694581a" />
+      {/* Dynamically populate amount and item_name based on cart */}
+      <input type="hidden" name="amount" value={price} />
+      <input type="hidden" name="item_name" value="Items" />
+      {/* Add any additional fields as needed */}
+      <input
+        type="hidden"
+        name="return_url"
+        value="https://https://sensory-wonderland.vercel.app///stripe/success"
+      />
+      <input
+        type="hidden"
+        name="cancel_url"
+        value="https://https://sensory-wonderland.vercel.app///stripe/error"
+      />
+      <input
+        type="hidden"
+        name="notify_url"
+        value="https://www.example.com/notify"
+      />
+      <button
+        type="submit"
+        className="w-full bg-primary text-white font-semibold py-2 px-4 rounded-md hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-light"
+      >
+        Checkout Now with Payfast
+      </button>
+    </form>
   );
 }

@@ -98,11 +98,40 @@ export default function ShoppingCartModal() {
               Shipping and taxes are calculated at checkout.
             </p>
 
-            <div className="mt-6">
-              <Button onClick={handleCheckoutClick} className="w-full">
-                Checkout
-              </Button>
-            </div>
+            <br />
+
+            <form
+              action="https://sandbox.payfast.co.za/eng/process"
+              method="post"
+            >
+              <input type="hidden" name="merchant_id" value="10000100" />
+              <input type="hidden" name="merchant_key" value="46f0cd694581a" />
+              {/* Dynamically populate amount and item_name based on cart */}
+              <input type="hidden" name="amount" value={totalPrice} />
+              <input type="hidden" name="item_name" value="Items" />
+              {/* Add any additional fields as needed */}
+              <input
+                type="hidden"
+                name="return_url"
+                value="https://next-js-ecommerce-wheat.vercel.app//stripe/success"
+              />
+              <input
+                type="hidden"
+                name="cancel_url"
+                value="https://next-js-ecommerce-wheat.vercel.app//stripe/error"
+              />
+              <input
+                type="hidden"
+                name="notify_url"
+                value="https://www.example.com/notify"
+              />
+              <button
+                type="submit"
+                className="w-full bg-primary text-white font-semibold py-2 px-4 rounded-md hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-light"
+              >
+                Checkout with PayFast
+              </button>
+            </form>
 
             <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
               <p>
