@@ -38,12 +38,12 @@ export default function CheckoutNow({
       <input
         type="hidden"
         name="return_url"
-        value="https://https://sensory-wonderland.vercel.app///stripe/success"
+        value="https://next-js-ecommerce-wheat.vercel.app//stripe/success"
       />
       <input
         type="hidden"
         name="cancel_url"
-        value="https://https://sensory-wonderland.vercel.app///stripe/error"
+        value="https://next-js-ecommerce-wheat.vercel.app//stripe/error"
       />
       <input
         type="hidden"
