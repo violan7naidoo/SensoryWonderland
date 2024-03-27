@@ -28,9 +28,9 @@ export default function CheckoutNow({
     price_id: price_id,
   };
   return (
-    <form action="https://sandbox.payfast.co.za/eng/process" method="post">
-      <input type="hidden" name="merchant_id" value="10000100" />
-      <input type="hidden" name="merchant_key" value="46f0cd694581a" />
+    <form action="https://www.payfast.co.za/eng/process" method="post">
+      <input type="hidden" name="merchant_id" value="18284730" />
+      <input type="hidden" name="merchant_key" value="ucnrpq3aui4wb" />
       {/* Dynamically populate amount and item_name based on cart */}
       <input type="hidden" name="amount" value={price} />
       <input type="hidden" name="item_name" value="Items" />
@@ -38,12 +38,12 @@ export default function CheckoutNow({
       <input
         type="hidden"
         name="return_url"
-        value="https://next-js-ecommerce-wheat.vercel.app//stripe/success"
+        value="https://sensory-wonderland.vercel.app/stripe/success"
       />
       <input
         type="hidden"
         name="cancel_url"
-        value="https://next-js-ecommerce-wheat.vercel.app//stripe/error"
+        value="https://sensory-wonderland.vercel.app/stripe/error"
       />
       <input
         type="hidden"
