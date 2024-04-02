@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
                   href="/Toys"
                   className="hover:text-gray-400 transition duration-200"
                 >
-                  Sensory Textiles & Toys
+                  Toys
                 </a>
               </li>
               <li>
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                   href="/Products"
                   className="hover:text-gray-400 transition duration-200"
                 >
-                  Sensory Products
+                  Products
                 </a>
               </li>
             </ul>

@@ -23,16 +23,17 @@ export default async function Hero() {
           </h1>
 
           <p className="max-w-md leading-relaxed text-black-500 xl:text-lg  bg-gradient-to-r from-blue-200 to-blue-400 rounded-lg shadow-lg p-6 transition-all duration-1000 ease-in-out animate-gradient">
-            Dear Loving Parents. <br /> We at Sensory Wonderland, understand you
-            have a hectic schedule. Just a personal note: From the Founder I
-            know things change everyday, we cannot do everything on our own. Do
-            not feel ashamed or guilty, instead BE PROUD!!! God will never give
-            you more then you can handle. No diagnosis is different just because
-            of the severity, as not all diagnosis can be seen. Non-Verbal or on
-            the spectrum and even though they cannot say I love you out aloud. I
-            am sure those tight bear hugs, and kisses shows you that
-            appreciation and love. Actions over words?! Take each day as it
-            comes. Jeremiah 29:11. Love K.
+            Dear Loving Parents, Guardians, Caregivers and Supporters <br /> We
+            at Sensory Wonderland, understand you have a hectic schedule. Just a
+            personal note: From the Founder I know things change everyday, we
+            cannot do everything on our own. Do not feel ashamed or guilty,
+            instead BE PROUD!!! God will never give you more then you can
+            handle. No diagnosis is different just because of the severity, as
+            not all diagnosis can be seen. Non-Verbal or on the spectrum and
+            even though they cannot say I love you out aloud. I am sure those
+            tight bear hugs, and kisses shows you that appreciation and love.
+            Actions over words?! Take each day as it comes. Jeremiah 29:11. Love
+            K.
           </p>
         </div>
 
