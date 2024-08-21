@@ -22,8 +22,8 @@ export default async function Hero() {
             Sensory Fun for Kids
           </h1>
           <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-            Discover high-quality sensory products that make learning fun. Let's
-            get your shop started today!
+            Discover high-quality sensory products that make learning fun.
+            Let&apos;s get your shop started today!
           </p>
         </div>
 
