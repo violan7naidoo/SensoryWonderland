@@ -19,11 +19,10 @@ export default async function Hero() {
       <div className="mb-8 flex flex-wrap justify-between md:mb-16">
         <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
           <h1 className="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl">
-            Sensory Fun for Kids
+            Dharma Beauty
           </h1>
           <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-            Discover high-quality sensory products that make learning fun.
-            Let&apos;s get your shop started today!
+            Discover high-quality Dharma products that make your skin glow.
           </p>
         </div>
 
@@ -55,22 +54,22 @@ export default async function Hero() {
       <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
         <div className="flex h-12 w-full divide-x overflow-hidden rounded-lg border">
           <Link
-            href="/Occupational"
+            href="/Pigmentation-Serum"
             className="flex w-1/3 items-center justify-center text-black-500 transition duration-100 hover:bg-blue-100 active:bg-gray-200"
           >
-            Occupational
+            Pigmentation Serum
           </Link>
           <Link
-            href="/Toys"
+            href="/L-Glutathione-Scrub"
             className="flex w-1/3 items-center justify-center text-black-500 transition duration-100 hover:bg-blue-100 active:bg-gray-200"
           >
-            Toys
+            L-Glutathione Scrub
           </Link>
           <Link
-            href="/Products"
+            href="/Kojic-Scrub"
             className="flex w-1/3 items-center justify-center text-black-500 transition duration-100 hover:bg-blue-100 active:bg-gray-200"
           >
-            Products
+            Kojic Scrub
           </Link>
         </div>
       </div>
