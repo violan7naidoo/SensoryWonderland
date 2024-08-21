@@ -8,9 +8,9 @@ import ShoppingCartModal from "./components/ShoppingCartModal";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sensory Wonderland",
+  title: "Dharma Beauty",
   description:
-    "Resources for Austism, ADHD, Asperger's , Neuro-Diverse Kids, Schools and Parents",
+    " Discover high-quality Dharma products that make your skin glow.",
 };
 
 export default function RootLayout({

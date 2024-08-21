@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-wrap justify-between">
           <div className="mb-4 w-full sm:w-1/2 lg:w-1/4">
             <h2 className="text-xl font-bold mb-2 text-lg font-semibold text-primary">
-              Sensory Wonderland
+              Dharma Beauty
             </h2>
             <ul className="list-none">
               <li>
@@ -22,26 +22,26 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="/Occupational"
+                  href="/Pigmentation-Serum"
                   className="hover:text-gray-400 transition duration-200"
                 >
-                  Occupational
+                  Pigmentation Serum
                 </a>
               </li>
               <li>
                 <a
-                  href="/Toys"
+                  href="/L-Glutathione-Scrub"
                   className="hover:text-gray-400 transition duration-200"
                 >
-                  Toys
+                  L-Glutathione Scrub
                 </a>
               </li>
               <li>
                 <a
-                  href="/Products"
+                  href="/Kojic-Scrub"
                   className="hover:text-gray-400 transition duration-200"
                 >
-                  Products
+                  Kojic Scrub
                 </a>
               </li>
             </ul>
@@ -55,14 +55,14 @@ const Footer: React.FC = () => {
                   href="/"
                   className="hover:text-gray-400 transition duration-200"
                 >
-                  Call K : 082 794 1504
+                  Call Shiv : 067 089 2781
                 </a>
               </li>
               <li></li>
               <li className=" flex items-center mx-auto mt-2 ">
                 <span className="text-xl mr-2">
                   <a
-                    href="https://www.facebook.com/profile.php?id=61556572127307"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400 transition duration-200"
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
                 </span>
                 <span className="text-xl mr-2">
                   <a
-                    href="https://www.tiktok.com/@senorywonderland"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400 transition duration-200"
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
                 </span>
                 <span className="text-xl">
                   <a
-                    href="https://www.instagram.com/sensory_wonderland/"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400 transition duration-200"
@@ -106,7 +106,7 @@ const Footer: React.FC = () => {
           </a>
           <p className="text-sm text-gray-500">
             <br />
-            &copy; {new Date().getFullYear()} Sensory Wonderland. All rights
+            &copy; {new Date().getFullYear()} Dharma Beauty. All rights
             reserved.
           </p>{" "}
         </div>

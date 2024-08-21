@@ -8,9 +8,9 @@ import { useShoppingCart } from "use-shopping-cart";
 
 const links = [
   { name: "Home", href: "/" },
-  { name: "Occupational", href: "/Occupational" },
-  { name: "Toys", href: "/Toys" },
-  { name: "Products", href: "/Products" },
+  { name: "Pigmentation Serum", href: "/Pigmentation-Serum" },
+  { name: "L-Glutathione Scrub", href: "/L-Glutathione-Scrub" },
+  { name: "Kojic Scrub", href: "/Kojic-Scrub" },
 ];
 
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
           <h1 className="text-2xl md:text-4xl font-bold">
-            Wonderland<span className="text-primary">SA</span>
+            Dharm<span className="text-primary">Beauty</span>
           </h1>
         </Link>
 
