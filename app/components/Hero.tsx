@@ -17,28 +17,18 @@ export default async function Hero() {
   return (
     <section className="mx-auto max-w-2xl px-4 sm:pb-6 lg:max-w-7xl lg:px-8">
       <div className="mb-8 flex flex-wrap justify-between md:mb-16">
-        <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-1 ">
-          <h1 className="mb-4 text-4xl  justify-center font-bold text-black sm:text-5xl md:mb-8 md:text-6xl bg-gradient-to-r from-blue-200 to-blue-400 rounded-lg shadow-lg p-6 transition-all duration-1000 ease-in-out animate-gradient">
-            Welcome to our shop!
+        <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
+          <h1 className="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl">
+            Sensory Fun for Kids
           </h1>
-
-          <p className="max-w-md leading-relaxed text-black-500 xl:text-lg  bg-gradient-to-r from-blue-200 to-blue-400 rounded-lg shadow-lg p-6 transition-all duration-1000 ease-in-out animate-gradient">
-            Dear Loving Parents, Guardians, Caregivers and Supporters <br /> We
-            at Sensory Wonderland, understand you have a hectic schedule. Just a
-            personal note: From the Founder I know things change everyday, we
-            cannot do everything on our own. Do not feel ashamed or guilty,
-            instead BE PROUD!!! God will never give you more then you can
-            handle. No diagnosis is different just because of the severity, as
-            not all diagnosis can be seen. Non-Verbal or on the spectrum and
-            even though they cannot say I love you out aloud. I am sure those
-            tight bear hugs, and kisses shows you that appreciation and love.
-            Actions over words?! Take each day as it comes. Jeremiah 29:11. Love
-            K.
+          <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
+            Discover high-quality sensory products that make learning fun. Let's
+            get your shop started today!
           </p>
         </div>
 
-        <div className="mb-12 flex flex-col items-center w-full md:mb-16 lg:w-2/3">
-          <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg w-full max-w-md mb-4 md:mb-0">
+        <div className="mb-12 flex w-full md:mb-16 lg:w-2/3">
+          <div className="relative left-12 top-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:left-16 md:top-16 lg:ml-0">
             <Image
               src={urlFor(data.image1).url()}
               alt="Great Photo"
@@ -49,7 +39,7 @@ export default async function Hero() {
             />
           </div>
 
-          <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg w-full max-w-md">
+          <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
             <Image
               src={urlFor(data.image2).url()}
               alt="Great Photo"
