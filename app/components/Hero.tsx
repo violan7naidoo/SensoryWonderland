@@ -22,12 +22,7 @@ export default async function Hero() {
             Dharma Beauty
           </h1>
           <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-<<<<<<< HEAD
-            Discover high-quality sensory products that make learning fun. Let's
-            get your shop started today!
-=======
             Discover high-quality Dharma products that make your skin glow.
->>>>>>> 5d58d519c2385eb7e0589f2854c9a3402ff629a8
           </p>
         </div>
 
